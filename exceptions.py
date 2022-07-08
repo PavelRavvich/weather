@@ -3,4 +3,4 @@ class CantGetCoordinates(Exception):
 
 
 class ApiServiceError(Exception):
-    """Program can't current weather"""
+    """Program can't currently weather"""

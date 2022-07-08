@@ -16,13 +16,13 @@ Celsius: TypeAlias = float
 
 
 class WeatherType(str, Enum):
-    THUNDERSTORM = "Гроза"
-    DRIZZLE = "Изморось"
-    RAIN = "Дождь"
-    SNOW = "Снег"
-    CLEAR = "Ясно"
-    FOG = "Туман"
-    CLOUDS = "Облачно"
+    THUNDERSTORM = "Thunderstorm"
+    DRIZZLE = "Drizzle"
+    RAIN = "Rain"
+    SNOW = "Snow"
+    CLEAR = "Clear"
+    FOG = "Fog"
+    CLOUDS = "Clouds"
 
 
 @dataclass(slots=True, frozen=True)
